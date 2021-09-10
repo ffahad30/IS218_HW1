@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Introduces readers to website">
+    <meta name="keywords" content="Home, NJIT, Information, Systems, IS 218, Fall, 2021">
+    <meta name="author" content="Fizah Fahad">
+
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="home.css">
+
+    <script src="https://kit.fontawesome.com/0d79df1df8.js" crossorigin="anonymous"></script>
+
+    <title>Home</title>
+</head>
+<body>
+
+
+<div class="container-fluid">
+    <div class="topnav" id="myTopnav" style="background-color: #1e2327">
+
+        <div class="headerright">
+            <a style="text-decoration-color: white;" href="https://ffahad30.github.io/IS218_HW1/home.html">Home</a>
+            <a style="text-decoration-color: white;" href="https://ffahad30.github.io/IS218_HW1/about.html">About</a>
+        </div>
+        <a class="logo" href="https://ffahad30.github.io/IS218_HW1/home.html"><img src="images/favicon.ico" style="width:30px; height:30px;" alt="logo"></a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+</div>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
+
+<div class="title">
+    <h1>IS 218 Fall 2021</h1>
+    <h2><i>Welcome to Fizah Fahad's first homework assignment for IS 218 during the Fall 2021 semester!</i></h2>
+</div>
+
+
+<div class="footer">
+    <div class="row">
+        <div class="column-1">
+            <p>FF 2021 ©</p>
+        </div>
+        <div class="column-2">
+            <p>IS 218: Homework 1</p>
+        </div>
+        <div class="column-3">
+            <a href="https://github.com/ffahad30"><i style="padding-right: 5%;" class="fab fa-github-square"></i></a>
+            <a href="https://www.linkedin.com/in/fizah-fahad-3183a61b7/"><i style="padding-left: 5%;" class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
